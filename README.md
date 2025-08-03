@@ -45,7 +45,35 @@ Please read [ABOUT_THIS_TEMPLATE](ABOUT_THIS_TEMPLATE.md), and delete this secti
 
 ## About
 
-## Getting started
+This is the repository of team **TBC** (Team G) of the 2025 SPARC Codeathon. Information about the 2025 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2025-sparc-fair-codeathon).
+
+No work was done on this project prior to the Codeathon.
+
+## Introduction
+
+The NIH Common Fund's Stimulating Peripheral Activity to Relieve Conditions (SPARC) program aims to advance our understanding of how electrical signals regulate internal organ function. By investigating these mechanisms, SPARC explores the potential for therapeutic devices to modulate nerve activity as treatments for conditions such as hypertension, heart failure, and gastrointestinal disorders. This comprehensive research initiative has aggregated data from over 60 research groups, encompassing more than 3,900 subjects across 8 species and 49 different anatomical structures.
+
+The SCKAN Natural Language Interface (SCKAN NLI, http://fdi-nlp.ucsd.edu/) is an AI-based query interface customized for retrieving high-level connectivity knowledge from SCKAN. The NLI leverages the GPT-4o mini ("o" for "omni") model to extract contextual semantic frames related to SCKAN's connectivity knowledge and generates answers using natural language expressions. The technical overview of the SCKAN NLI can be found [here](https://github.com/smtifahim/SCKAN-Apps/blob/master/sckan-explorer/json/sckan-nli/technical-overview.md).
+
+## The Problem
+
+Large language models (LLMs) have revolutionized how users interact with complex scientific databases, offering the potential for intuitive, natural language queries that democratise access to specialised knowledge. However, the current SCKAN NLI implementation falls short of delivering an optimal user experience that could significantly enhance engagement with the broader SPARC Platform.
+
+While the SCKAN NLI provides valuable functionality, several critical limitations prevent it from fully leveraging the power of modern LLMs and restrict user adoption across the SPARC ecosystem:
+
+1. **Response Time**: This is an experimental service that relies on GPT-4. The response time for the SCKAN NLI is primarily (>95%) dictated by GPT-4's own response times.
+
+2. **Lack of Conversational Memory & Limited Interactive Chatbot Functionality**: The chatbot cannot remember previous questions and functions more as a query tool than an interactive chatbot. This means users must phrase their entire query in a single turn, which makes the bot seem unintelligent. For example, if you ask it about the previous question, the SCKAN-NLI will give an unrelated answer. It is essentially a single-turn Q&A system rather than a conversational interface.
+
+3. **Redundant Architecture**: The use of multiple API calls and multiple LLM calls makes the overall logic overly redundant and complex.
+
+4. **Inability to Integrate Flatmap**: The system cannot be integrated with Flatmap.
+
+5. **User Interface Limitations**: Doesn't include chat history.
+
+These limitations create friction that discourages researchers from fully exploring SCKAN's rich connectivity data, ultimately reducing the scientific impact and utility of the entire SPARC
+
+## Our Solution 
 
 ### Pre-requisites 
 - Python versions:
@@ -67,4 +95,8 @@ Please check existing issues before submitting a new one.
 
 ## Contributors
 
-## Acknowledgements
+## Acknowledgements 
+
+
+## References: 
+[1] SCKAN NLI Technical Overview. https://github.com/smtifahim/SCKAN-Apps/blob/master/sckan-explorer/json/sckan-nli/technical-overview.md
