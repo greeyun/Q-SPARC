@@ -75,6 +75,11 @@ These limitations create friction that discourages researchers from fully explor
 
 ## Our Solution 
 
+1. **Local Server**
+2. **History Memory**
+
+
+
 ### Pre-requisites 
 - Python versions:
    - 3.9
