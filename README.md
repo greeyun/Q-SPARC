@@ -97,7 +97,7 @@ Please check existing issues before submitting a new one.
 
 ## Contributors
 
-Matthew French (Lead, SysAdmin)
+Matthew French(#https://github.com/GITHUB_ACCOUNT/{REPO_NAME}/issues) (Lead, SysAdmin)
 Johnny Xu (Developer, Writer)
 Yun Gu (Developer, Writer)
 Dan Zhang (Developer, Writer)
