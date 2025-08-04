@@ -97,6 +97,13 @@ Please check existing issues before submitting a new one.
 
 ## Contributors
 
+Matthew French (Lead, SysAdmin)
+Johnny Xu (Developer, Writer)
+Yun Gu (Developer, Writer)
+Dan Zhang (Developer, Writer)
+Huayan Zeng (Writer)
+
+
 ## Acknowledgements 
 
 
