@@ -1,6 +1,6 @@
-# {YOUR-PROJECT-NAME}
+# Q-SPARC
 
-{SHORT PROJECT DESCRIPTION}
+An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 
 ![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
 [![Contributors][contributors-shield]][contributors-url]
@@ -12,16 +12,16 @@
 [![PyPI version fury.io][pypi-shield]][pypi-url]
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
 
-[contributors-shield]: https://img.shields.io/github/contributors/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[contributors-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[stars-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/stargazers
-[issues-shield]: https://img.shields.io/github/issues/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[issues-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/{GITHUB_ACCOUNT}/{REPO_NAME}.svg
-[issues-closed-url]: https://GitHub.com/SPARC-FAIR-Codeathon/sparc-me/issues?q=is%3Aissue+is%3Aclosed
-[license-shield]: https://img.shields.io/github/license/{GITHUB_ACCOUNT}/{REPO_NAME}.svg?style=flat-square
-[license-url]: https://github.com/{GITHUB_ACCOUNT}/{REPO_NAME}/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
+[contributors-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
+[stars-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
+[issues-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-codeathon/2025-team-G.svg
+[issues-closed-url]: https://GitHub.com/SPARC-FAIR-codeathon/2025-team-G/issues?q=is%3Aissue+is%3Aclosed
+[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
+[license-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/blob/master/LICENSE
 [code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
 [pypi-shield]: https://badge.fury.io/py/{PYPI_PROJECT_NAME}.svg
 [pypi-url]: https://pypi.python.org/pypi/{PYPI_PROJECT_NAME}}/
@@ -50,7 +50,7 @@ The NIH Common Fund's Stimulating Peripheral Activity to Relieve Conditions (SPA
 
 The SCKAN Natural Language Interface (SCKAN NLI, http://fdi-nlp.ucsd.edu/) is an AI-based query interface customized for retrieving high-level connectivity knowledge from SCKAN. The NLI leverages the GPT-4o mini ("o" for "omni") model to extract contextual semantic frames related to SCKAN's connectivity knowledge and generates answers using natural language expressions. The technical overview of the SCKAN NLI can be found [here](https://github.com/smtifahim/SCKAN-Apps/blob/master/sckan-explorer/json/sckan-nli/technical-overview.md).
 
-Building on the limitations of the SCKAN NLI, we developed an interactive chatbot (Q-SCKAN) designed to explore both SCKAN and Flatmap with a focus on enhancing user experience. The Q-SCKAN provides a more intuitive and engaging way for users to access connectivity knowledge by leveraging natural language queries. By integrating advanced open-access large language models and visualization tools, it enables users to interactively navigate complex anatomical and neural connectivity data, offering a more seamless and informative exploration experience.
+Building on the limitations of the SCKAN NLI, we developed an interactive chatbot (Q-SPARC) designed to explore both SCKAN and Flatmap with a focus on enhancing user experience. The Q-SPARC provides a more intuitive and engaging way for users to access connectivity knowledge by leveraging natural language queries. By integrating advanced open-access large language models and visualization tools, it enables users to interactively navigate complex anatomical and neural connectivity data, offering a more seamless and informative exploration experience.
 
 ## The Problem
 
