@@ -29,11 +29,6 @@
 [conventional-commits-url]: https://conventionalcommits.org
 
 
-## HOW TO USE THIS TEMPLATE
-
-Please read [ABOUT_THIS_TEMPLATE](ABOUT_THIS_TEMPLATE.md), and delete this section.
-
-
 ## Table of contents
 * [About](#about)
 * [Getting started](#getting-started)
@@ -54,6 +49,8 @@ No work was done on this project prior to the Codeathon.
 The NIH Common Fund's Stimulating Peripheral Activity to Relieve Conditions (SPARC) program aims to advance our understanding of how electrical signals regulate internal organ function. By investigating these mechanisms, SPARC explores the potential for therapeutic devices to modulate nerve activity as treatments for conditions such as hypertension, heart failure, and gastrointestinal disorders. This comprehensive research initiative has aggregated data from over 60 research groups, encompassing more than 3,900 subjects across 8 species and 49 different anatomical structures.
 
 The SCKAN Natural Language Interface (SCKAN NLI, http://fdi-nlp.ucsd.edu/) is an AI-based query interface customized for retrieving high-level connectivity knowledge from SCKAN. The NLI leverages the GPT-4o mini ("o" for "omni") model to extract contextual semantic frames related to SCKAN's connectivity knowledge and generates answers using natural language expressions. The technical overview of the SCKAN NLI can be found [here](https://github.com/smtifahim/SCKAN-Apps/blob/master/sckan-explorer/json/sckan-nli/technical-overview.md).
+
+Building on the limitations of the SCKAN NLI, we developed an interactive chatbot (Q-SCKAN) designed to explore both SCKAN and Flatmap with a focus on enhancing user experience. The Q-SCKAN provides a more intuitive and engaging way for users to access connectivity knowledge by leveraging natural language queries. By integrating advanced open-access large language models and visualization tools, it enables users to interactively navigate complex anatomical and neural connectivity data, offering a more seamless and informative exploration experience.
 
 ## The Problem
 
