@@ -71,11 +71,30 @@ While the SCKAN NLI provides valuable functionality, several critical limitation
 These limitations create friction that discourages researchers from fully exploring SCKAN's rich connectivity data, ultimately reducing the scientific impact and utility of the entire SPARC
 
 ## Our Solution 
+We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. This significantly enhances the accessibility and interpretability of SCKAN data within the SPARC ecosystem, aligning with SPARC’s **FAIR**ness principles by:
 
-1. **Local Server**
-2. **History Memory**
-
-
+* **F**indability
+   - Enhanced Metadata Management
+By performing embedding-based retrieval and reranking of knowledge chunks, the system achieves precise search and automatically extracts and attaches rich metadata tags, helping users       quickly locate corresponding visualizations.
+   - Keyword Tagging and Semantic Indexing
+The system ranks semantically relevant content and tags it with keywords, improving search accuracy and efficiency, allowing users to swiftly find target data and related Flatmap            visualizations via natural language or keywords.
+* **A**ccessibility
+   - User-Friendly Interactive Interface
+The local or cloud-based LLM server supports multi-turn dialogue and follow-up questions, significantly lowering the barrier for non-expert users, enabling intuitive natural language interaction and real-time data access.
+   - Platform Compatibility
+Designed as a modular, and extensible system, it accesses standardized local SDS datasets via APIs, ensuring smooth and efficient data retrieval.
+   - Open Access and Unrestricted Usage
+If the LLM system is open-source or freely available, it further guarantees broad community access, promoting fair sharing of SPARC data resources.
+* **I**nteroperability
+   - Support for Standard Formats
+Supports import and export of open standard formats such as JSON, CSV, and TTL, ensuring compatibility with other research tools and analysis platforms and facilitating seamless integration of data and visualization outputs.
+   - API-Driven and Modular Architecture
+With well-designed API interfaces enabling dynamic interaction with the Flatmap server, the system supports integration with external toolchains, promoting cross-platform and cross-tool collaboration.
+* **R**eusability
+   - Comprehensive Documentation and Templates
+Accompanied by detailed documentation and commonly used visualization templates, the system helps users quickly reuse and customize visualization solutions for their own datasets, reducing redundant development effort.
+   - Version Control Mechanism
+Through version management features, it tracks the evolution history of visualization outputs, allowing users to revert, compare, and reuse existing visualizations, thereby improving research efficiency.
 
 ### Pre-requisites 
 - Python versions:
