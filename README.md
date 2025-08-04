@@ -97,11 +97,11 @@ Please check existing issues before submitting a new one.
 
 ## Contributors
 
-[Matthew French](https://github.com/frenchmatthew) (Lead, SysAdmin)
-Johnny Xu (Developer, Writer)
-Yun Gu (Developer, Writer)
-Dan Zhang (Developer, Writer)
-Huayan Zeng (Writer)
+* [Matthew French](https://github.com/frenchmatthew) (Lead, SysAdmin)
+* [Johnny Xu](https://github.com/JohnnyXu158) (Developer, Writer)
+* [Yun Gu](https://github.com/greeyun) (Developer, Writer)
+* [Dan Zhang](https://github.com/nailperry-zd) (Developer, Writer)
+* [Huayan Zeng](https://github.com/huayan190) (Writer)
 
 
 ## Acknowledgements 
