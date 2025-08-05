@@ -112,28 +112,28 @@ Included are guided tutorials covering some applications of Q-SPARC:
 </thead>
 <tbody>
   <tr>
-    <td><a href="tutorials/tutorial_1_Getting_Started.ipynb">
+    <td><a href="tutorials/tutorial_1_getting_started.ipynb">
     Tutorial 1: 
     </a></td>
     <td> <b>Getting started</b> - In this tutorial, we show how to deploy Q-SPARC and use the basic example.</td>
   </tr>
   <tr>
-    <td><a href="tutorials/tutorial_2_Deploying_Q_SPARC_chatbot.ipynb">
+    <td><a href="tutorials/tutorial_2_deploying_Q-SPARC_chatbot.ipynb">
     Tutorial 2: 
     </a></td>
-    <td> <b>Finding scaffolds</b> - In this tutorial, we show how to augmenting Q-SPARC with SCKAN dataset to provide expert natural language response and relevant metadata. </td>
+    <td> <b>Deploying_Q-SPARC_chatbot</b> - In this tutorial, we show how to augmenting Q-SPARC with SCKAN dataset to provide expert natural language response and relevant metadata. </td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_3_communication_frontend_backend.ipynb">
     Tutorial 3: 
     </a></td>
-    <td> <b>Generating analytics</b> - In this tutorial, we show how the web-based UI interacts with Q-SPARC to display structured and unstructured outputs in a user-friendly way.</td>
+    <td> <b>Communication_frontend_backend</b> - In this tutorial, we show how the web-based UI interacts with Q-SPARC to display structured and unstructured outputs in a user-friendly way.</td>
   </tr>
   <tr>
-    <td><a href="tutorials/tutorial_4_Visualizing_Results_with_Flatmap.ipynb">
+    <td><a href="tutorials/tutorial_4_visualizing_results_with_flatmap.ipynb">
     Tutorial 4: 
     </a></td>
-    <td> <b>New tags</b> - In this tutorial, we show how to integrate the analysis results of Q-SPARC with Flatmap for dynamic anatomical visualization.</td>
+    <td> <b>Visualizing_results_with_flatmap</b> - In this tutorial, we show how to integrate the analysis results of Q-SPARC with Flatmap for dynamic anatomical visualization.</td>
   </tr> 
 </tbody>
 </table>
