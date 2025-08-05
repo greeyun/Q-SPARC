@@ -44,7 +44,7 @@ An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 
 ## About
 
-This is the repository of team **TBC** (Team G) of the 2025 SPARC Codeathon. Information about the 2025 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2025-sparc-fair-codeathon).
+This is the repository of Team G of the 2025 SPARC Codeathon. Information about the 2025 SPARC Codeathon can be found [here](https://sparc.science/news-and-events/events/2025-sparc-fair-codeathon).
 
 No work was done on this project prior to the Codeathon.
 
@@ -88,11 +88,11 @@ We have developed a effective and extensible chatbot system(**Q-SPARC**) that in
 
 
 <p align="center">
-  <img src="./images/flow_graph_whole.png" alt="Chatbot Pipeline">
+  <img src="./images/flow_graph_whole.png" alt="Chatbot Pipeline" style="font-size: smaller;">
 <p align="center"><b>Figure 1.</b> Overview of our chatbot system designed for the SCKAN database. The diagram shows the main components and workflow, including data retrieval from SCKAN, natural language understanding, response generation, and user interaction. This system facilitates intuitive conversational access to the SCKAN database.</p>
 
 <p align="center">
-  <img src="./images/q_sparc_response.png" alt="Results Sample">
+  <img src="./images/q_sparc_response.png" alt="Results Sample" style="font-size: smaller;">
 <p align="center"><b>Figure 2.</b> Example result from the chatbot interacting with the SCKAN database. This figure demonstrates how the system processes a user query in natural language and returns a structured, relevant response retrieved from SCKAN. It highlights the effectiveness of the chatbot in enabling seamless access to domain-specific knowledge.</p>
 
 
