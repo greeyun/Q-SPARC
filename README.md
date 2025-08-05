@@ -33,7 +33,7 @@ An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 * [About](#about)
 * [Introduction](#Introduction)
 * [The Problem](#The-Problem)
-* [Our Solution](#Our-Solution)
+* [Our Solution (Q-SPARC)](#Our-Solution-(Q-SPARC))
 * [Using Q-SPARC](#Using-Q--SPARC)
 * [Contributing](#contributing)
 * [Reporting issues](#reporting-issues)
@@ -74,21 +74,21 @@ While the SCKAN NLI provides valuable functionality, several critical limitation
 
 These limitations create friction that discourages researchers from fully exploring SCKAN's rich connectivity data, ultimately reducing the scientific impact and utility of the entire SPARC.
 
-## Our Solution 
+## Our Solution (Q-SPARC)
 <!-- ![Q-SPARC](./images/q-sparc.png) -->
 
-<p>
+<p align="center">
   <img src="./images/q-sparc_2.png" alt="Q-SPARC" style="width: 249px;">
-</p>
-<p>
+</p align="center">
 
 
 
-We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. 
+
+We have developed a effective and extensible chatbot system(**Q-SPARC**) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. 
 
 
 <p align="center">
-  <img src="./images/flow graph whole.png" alt="Chatbot Pipeline">
+  <img src="./images/flow_graph_whole.png" alt="Chatbot Pipeline">
 <p align="center"><b>Figure 1.</b> Overview of our chatbot system designed for the SCKAN database. The diagram shows the main components and workflow, including data retrieval from SCKAN, natural language understanding, response generation, and user interaction. This system facilitates intuitive conversational access to the SCKAN database.</p>
 
 <p align="center">
