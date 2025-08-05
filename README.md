@@ -88,9 +88,12 @@ We have developed a effective and extensible chatbot system(Q-SPARC) that integr
 
 
 <p align="center">
-  <img src="./images/q_sparc_response.png" alt="Chatbot Pipeline">
+  <img src="./images/flow graph whole.png" alt="Chatbot Pipeline">
 <p align="center"><b>Figure 1.</b> Overview of our chatbot system designed for the SCKAN database. The diagram shows the main components and workflow, including data retrieval from SCKAN, natural language understanding, response generation, and user interaction. This system facilitates intuitive conversational access to the SCKAN database.</p>
 
+<p align="center">
+  <img src="./images/q_sparc_response.png" alt="Results Sample">
+<p align="center"><b>Figure 1.</b> Overview of our chatbot system designed for the SCKAN database. The diagram shows the main components and workflow, including data retrieval from SCKAN, natural language understanding, response generation, and user interaction. This system facilitates intuitive conversational access to the SCKAN database.</p>
 
 
 
@@ -158,6 +161,8 @@ Included are guided tutorials covering some applications of Q-SPARC:
 <p align="center">
 </p>
 <br/>
+
+
 
 ## Contributing
 
