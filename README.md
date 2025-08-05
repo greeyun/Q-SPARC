@@ -121,19 +121,19 @@ Included are guided tutorials covering some applications of Q-SPARC:
     <td><a href="tutorials/tutorial_2_Deploying_Q_SPARC_chatbot.ipynb">
     Tutorial 2: 
     </a></td>
-    <td> <b>Finding scaffolds</b> - In this tutorial, we show how to augmenting Q-SPARC with SCKAN dataset to provide expert natural language response and relevant metadata. </td>
+    <td> <b>Deploying_Q_SPARC_chatbot</b> - In this tutorial, we show how to augmenting Q-SPARC with SCKAN dataset to provide expert natural language response and relevant metadata. </td>
   </tr>
   <tr>
-    <td><a href="tutorials/tutorial_3_communication_frontend_backend.ipynb">
+    <td><a href="tutorials/tutorial_3_Communication_Frontend_Backend.ipynb">
     Tutorial 3: 
     </a></td>
-    <td> <b>Generating analytics</b> - In this tutorial, we show how the web-based UI interacts with Q-SPARC to display structured and unstructured outputs in a user-friendly way.</td>
+    <td> <b>Communication_Frontend_Backend</b> - In this tutorial, we show how the web-based UI interacts with Q-SPARC to display structured and unstructured outputs in a user-friendly way.</td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_4_Visualizing_Results_with_Flatmap.ipynb">
     Tutorial 4: 
     </a></td>
-    <td> <b>New tags</b> - In this tutorial, we show how to integrate the analysis results of Q-SPARC with Flatmap for dynamic anatomical visualization.</td>
+    <td> <b>Visualizing_Results_with_Flatmap</b> - In this tutorial, we show how to integrate the analysis results of Q-SPARC with Flatmap for dynamic anatomical visualization.</td>
   </tr> 
 </tbody>
 </table>
