@@ -3,7 +3,7 @@
 An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 
 ![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
-[![Contributors][contributors-shield]][contributors-url]
+[![Contributors][contributors-shield]][[contributors-url](https://github.com/SPARC-FAIR-Codeathon/2025-team-G/graphs/contributors)]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![GitHub issues-closed][issues-closed-shield]][issues-url]
