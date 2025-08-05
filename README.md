@@ -75,7 +75,6 @@ While the SCKAN NLI provides valuable functionality, several critical limitation
 These limitations create friction that discourages researchers from fully exploring SCKAN's rich connectivity data, ultimately reducing the scientific impact and utility of the entire SPARC.
 
 ## Our Solution 
-
 ![Q-SPARC](./image/q-sparc.png)
 
 We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. This significantly enhances the accessibility and interpretability of SCKAN data within the SPARC ecosystem, aligning with SPARC’s **FAIR**ness principles by:
@@ -141,7 +140,6 @@ Included are guided tutorials covering some applications of Q-SPARC:
 <p align="center">
 </p>
 <br/>
-
 ## Contributing
 
 See [Contributing](CONTRIBUTING.md)
