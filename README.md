@@ -31,11 +31,15 @@ An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 
 ## Table of contents
 * [About](#about)
-* [Getting started](#getting-started)
+* [Introduction](#Introduction)
+* [The Problem](#The-Problem)
+* [Our Solution](#Our-Solution)
+* [Using Q-SPARC](#Using-Q--SPARC)
 * [Contributing](#contributing)
 * [Reporting issues](#reporting-issues)
 * [Contributors](#contributors)
 * [Acknowledgements](#acknowledgements)
+
 
 
 ## About
@@ -58,7 +62,7 @@ Large language models (LLMs) have revolutionized how users interact with complex
 
 While the SCKAN NLI provides valuable functionality, several critical limitations prevent it from fully leveraging the power of modern LLMs and restrict user adoption across the SPARC ecosystem:
 
-1. **Response Time**: This is an experimental service that relies on GPT-4. The response time for the SCKAN NLI is primarily (>95%) dictated by GPT-4's own response times.
+1. **Response Time**: This is an experimental service that relies on GPT-4. The response time for the SCKAN NLI is primarily (>95%) dictated by GPT-4o's own response times.
 
 2. **Lack of Conversational Memory & Limited Interactive Chatbot Functionality**: The chatbot cannot remember previous questions and functions more as a query tool than an interactive chatbot. This means users must phrase their entire query in a single turn, which makes the bot seem unintelligent. For example, if you ask it about the previous question, the SCKAN-NLI will give an unrelated answer. It is essentially a single-turn Q&A system rather than a conversational interface.
 
@@ -71,6 +75,9 @@ While the SCKAN NLI provides valuable functionality, several critical limitation
 These limitations create friction that discourages researchers from fully exploring SCKAN's rich connectivity data, ultimately reducing the scientific impact and utility of the entire SPARC.
 
 ## Our Solution 
+
+![Q-SPARC](./images/q-sparc.png)
+
 We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. This significantly enhances the accessibility and interpretability of SCKAN data within the SPARC ecosystem, aligning with SPARC’s **FAIR**ness principles by:
 
 * **F**indability
@@ -153,7 +160,5 @@ Please check existing issues before submitting a new one.
 
 
 ## Acknowledgements 
+- We would like to thank the  2025 SPARC Codeathon organizers for their guidance and support during this Codeathon.
 
-
-## References: 
-[1] SCKAN NLI Technical Overview. https://github.com/smtifahim/SCKAN-Apps/blob/master/sckan-explorer/json/sckan-nli/technical-overview.md
