@@ -78,7 +78,7 @@ These limitations create friction that discourages researchers from fully explor
 <!-- ![Q-SPARC](./images/q-sparc.png) -->
 
 <p>
-  <img src="./images/q-sparc.png" alt="Q-SPARC" style="width: 100px;">
+  <img src="./images/q-sparc.png" alt="Q-SPARC" style="width: 250px;">
 </p>
 <p>
 
