@@ -62,7 +62,7 @@ Large language models (LLMs) have revolutionized how users interact with complex
 
 While the SCKAN NLI provides valuable functionality, several critical limitations prevent it from fully leveraging the power of modern LLMs and restrict user adoption across the SPARC ecosystem:
 
-1. **Response Time**: This is an experimental service that relies on GPT-4. The response time for the SCKAN NLI is primarily (>95%) dictated by GPT-4o's own response times.
+1. **Response Time**: This is an experimental service that relies on GPT-4o. The response time for the SCKAN NLI is primarily (>95%) dictated by GPT-4o's own response times.
 
 2. **Lack of Conversational Memory & Limited Interactive Chatbot Functionality**: The chatbot cannot remember previous questions and functions more as a query tool than an interactive chatbot. This means users must phrase their entire query in a single turn, which makes the bot seem unintelligent. For example, if you ask it about the previous question, the SCKAN-NLI will give an unrelated answer. It is essentially a single-turn Q&A system rather than a conversational interface.
 
