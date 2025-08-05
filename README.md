@@ -12,16 +12,16 @@ An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 [![PyPI version fury.io][pypi-shield]][pypi-url]
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
 
-[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
-[contributors-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
-[stars-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
-[issues-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-codeathon/2025-team-G.svg
-[issues-closed-url]: https://GitHub.com/SPARC-FAIR-codeathon/2025-team-G/issues?q=is%3Aissue+is%3Aclosed
-[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-codeathon/2025-team-G.svg?style=flat-square
-[license-url]: https://github.com/SPARC-FAIR-codeathon/2025-team-G/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
+[contributors-url]: https://github.com/SPARC-FAIR-codeathon/Q-SPARC/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
+[stars-url]: https://github.com/SPARC-FAIR-codeathon/Q-SPARC/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
+[issues-url]: https://github.com/SPARC-FAIR-codeathon/Q-SPARC/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/SPARC-FAIR-codeathon/Q-SPARC.svg
+[issues-closed-url]: https://GitHub.com/SPARC-FAIR-codeathon/Q-SPARC/issues?q=is%3Aissue+is%3Aclosed
+[license-shield]: https://img.shields.io/github/license/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
+[license-url]: https://github.com/SPARC-FAIR-codeathon/Q-SPARC/blob/master/LICENSE
 [code-of-conduct-shield]: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
 [pypi-shield]: https://badge.fury.io/py/{PYPI_PROJECT_NAME}.svg
 [pypi-url]: https://pypi.python.org/pypi/{PYPI_PROJECT_NAME}}/
