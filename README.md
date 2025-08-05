@@ -93,8 +93,6 @@ With well-designed API interfaces enabling dynamic interaction with the Flatmap 
 * **R**eusability
    - Comprehensive Documentation and Templates
 Accompanied by detailed documentation and commonly used visualization templates, the system helps users quickly reuse and customize visualization solutions for their own datasets, reducing redundant development effort.
-   - Version Control Mechanism
-Through version management features, it tracks the evolution history of visualization outputs, allowing users to revert, compare, and reuse existing visualizations, thereby improving research efficiency.
 
 ### Pre-requisites 
 - Python versions:
