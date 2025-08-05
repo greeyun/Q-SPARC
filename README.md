@@ -75,9 +75,13 @@ While the SCKAN NLI provides valuable functionality, several critical limitation
 These limitations create friction that discourages researchers from fully exploring SCKAN's rich connectivity data, ultimately reducing the scientific impact and utility of the entire SPARC.
 
 ## Our Solution 
-![Q-SPARC](./image/q-sparc.png)
+![Q-SPARC](./images/q-sparc.png)
 
-We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. This significantly enhances the accessibility and interpretability of SCKAN data within the SPARC ecosystem, aligning with SPARC’s **FAIR**ness principles by:
+We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. 
+
+![Q-SPARC](./images/chatbot_pipline.jpg)
+
+This significantly enhances the accessibility and interpretability of SCKAN data within the SPARC ecosystem, aligning with SPARC’s **FAIR**ness principles by:
 
 * **F**indability
    - Enhanced Metadata Management
@@ -118,7 +122,7 @@ Included are guided tutorials covering some applications of Q-SPARC:
     <td> <b>Getting started</b> - In this tutorial, we show how to deploy Q-SPARC and use the basic example.</td>
   </tr>
   <tr>
-    <td><a href="tutorials/tutorial_2_deploying_Q-SPARC_chatbot.ipynb">
+    <td><a href="tutorials/tutorial_2_deploying_Q_SPARC_chatbot.ipynb">
     Tutorial 2: 
     </a></td>
     <td> <b>Deploying_Q-SPARC_chatbot</b> - In this tutorial, we show how to augmenting Q-SPARC with SCKAN dataset to provide expert natural language response and relevant metadata. </td>
