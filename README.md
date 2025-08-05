@@ -79,15 +79,21 @@ These limitations create friction that discourages researchers from fully explor
 
 <p align="center">
   <img src="./images/q-sparc.png" alt="Q-SPARC">
-<p align="center"><b>Figure 1.</b> Overview of our chatbot system designed for the SCKAN database. The diagram shows the main components and workflow, including data retrieval from SCKAN, natural language understanding, response generation, and user interaction. This system facilitates intuitive conversational access to the SCKAN database.</p>
-
+<p align="center">
 
 
 
 
 We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. 
 
-![Q-SPARC Chatbot Pipeline](./images/flow graph whole.jpg)
+
+<p align="center">
+  <img src="./images/q_sparc_response.png" alt="Chatbot Pipeline">
+<p align="center"><b>Figure 1.</b> Overview of our chatbot system designed for the SCKAN database. The diagram shows the main components and workflow, including data retrieval from SCKAN, natural language understanding, response generation, and user interaction. This system facilitates intuitive conversational access to the SCKAN database.</p>
+
+
+
+
 
 This significantly enhances the accessibility and interpretability of SCKAN data within the SPARC ecosystem, aligning with SPARC’s **FAIR**ness principles by:
 
