@@ -61,24 +61,6 @@ def load_and_process_documents() -> List[Document]:
     print(f"Processing {len(raw_docs)} records...")
     for doc in raw_docs:
         record = json.loads(doc.page_content)
-        
-        # clean_data = {
-        #     "Neuron_ID": get_val(record, "Neuron_ID"),
-        #     "A": get_val(record, "A"),
-        #     "B": get_val(record, "B"),
-        #     "C": get_val(record, "C"),
-        #     "Target_Organ": get_val(record, "Target_Organ"),
-        #     "C_Type": get_val(record, "C_Type"),
-        # }
-        
-        # # Create meaningful text content for semantic search
-        # page_content = (
-        #     f"Neuron Connection Info: Neuron ID is {clean_data['Neuron_ID']}. "
-        #     f"It connects from {clean_data['A']} to {clean_data['B']} via {clean_data['C']}. "
-        #     f"The target organ is {clean_data['Target_Organ']}. "
-        #     f"The connection type C_Type is {clean_data['C_Type']}."
-        # )
-
 
         clean_data = {
             "Neuron_ID": get_val(record, "Neuron_ID"),
@@ -404,31 +386,18 @@ This comprehensive list outlines the various anatomical structures that can be s
 # It includes placeholders for context (from retriever), history, and the user's input.
 # The few-shot examples are now part of the template.
 
+# After completing the text answer, you need to show the table of the related database, use markdown format, note that you need to remove the repeated data:
+
 
 system_prompt = """You are an expert assistant specializing in neuroscience and neural pathways. 
 Answer the user's question based on the following context and the chat history.Be concise and clear,do not output thinking stage and do not output repeat or redudant results.
-After completing the text answer, you will also need to return the data in the original database that I used in the following format, if not exist show N/A, and delete the repeated data:
 
-Start_JSON "head": [
-      "Neuron_ID",
-      "A_L1_ID",
-      "A_L1",
-      "A_L2_ID",
-      "A_L2",
-      "A_L3_ID",
-      "A_L3",
-      "A_ID",
-      "A",
-      "C_ID",
-      "C",
-      "C_Type",
-      "B_ID",
-      "B",
-      "Target_Organ_IRI",
-      "Target_Organ"
-    ],
-"rows":[...,...,...]
-End_JSON
+Do not output thinking stage, like <think> or </think>
+After completing the text answer, you must show the table (alignment) from the related database by following these rules:
+1.  Use markdown format for the table.
+2.  Ensure the data rows shown are unique.
+3.  For the long URLs in the `Origin (A_ID)`, `Destination (B_ID)`, and `Via (C_ID)` columns, replace them with short, unique aliases (e.g., A1, B1, C1). Each unique URL should have its own alias.
+4.  Immediately after the table, provide a "Legend" section that lists each alias and its corresponding full URL.
 
 CONTEXT:
 {context}
@@ -498,4 +467,4 @@ add_routes(
 if __name__ == "__main__":
     import uvicorn
     # The server will run on localhost at port 7777
-    uvicorn.run(app, host="localhost", port=8889)
+    uvicorn.run(app, host="localhost", port=1237)
