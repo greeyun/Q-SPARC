@@ -118,10 +118,10 @@ Included are guided tutorials covering some applications of Q-SPARC:
     <td> <b>Getting started</b> - In this tutorial, we show how to deploy Q-SPARC and use the basic example.</td>
   </tr>
   <tr>
-    <td><a href="tutorials/tutorial_2_Deploying_Q_SPARC_chatbot.ipynb">
+    <td><a href="tutorials/tutorial_2_Deploying_Q-SPARC_chatbot.ipynb">
     Tutorial 2: 
     </a></td>
-    <td> <b>Deploying_Q_SPARC_chatbot</b> - In this tutorial, we show how to augmenting Q-SPARC with SCKAN dataset to provide expert natural language response and relevant metadata. </td>
+    <td> <b>Deploying_Q-SPARC_chatbot</b> - In this tutorial, we show how to augmenting Q-SPARC with SCKAN dataset to provide expert natural language response and relevant metadata. </td>
   </tr>
   <tr>
     <td><a href="tutorials/tutorial_3_Communication_Frontend_Backend.ipynb">
