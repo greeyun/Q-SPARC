@@ -140,6 +140,7 @@ Included are guided tutorials covering some applications of Q-SPARC:
 <p align="center">
 </p>
 <br/>
+
 ## Contributing
 
 See [Contributing](CONTRIBUTING.md)
