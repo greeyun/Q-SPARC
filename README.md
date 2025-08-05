@@ -77,10 +77,10 @@ These limitations create friction that discourages researchers from fully explor
 ## Our Solution 
 <!-- ![Q-SPARC](./images/q-sparc.png) -->
 
-<p align="center">
-  <img src="./images/q-sparc.png" alt="Q-SPARC">
-<p align="center">
-
+<p>
+  <img src="./images/q-sparc.png" alt="Q-SPARC" style="width: 100px;">
+</p>
+<p>
 
 
 
@@ -93,8 +93,7 @@ We have developed a effective and extensible chatbot system(Q-SPARC) that integr
 
 <p align="center">
   <img src="./images/q_sparc_response.png" alt="Results Sample">
-<p align="center"><b>Figure 1.</b> Overview of our chatbot system designed for the SCKAN database. The diagram shows the main components and workflow, including data retrieval from SCKAN, natural language understanding, response generation, and user interaction. This system facilitates intuitive conversational access to the SCKAN database.</p>
-
+<p align="center"><b>Figure 2.</b> Example result from the chatbot interacting with the SCKAN database. This figure demonstrates how the system processes a user query in natural language and returns a structured, relevant response retrieved from SCKAN. It highlights the effectiveness of the chatbot in enabling seamless access to domain-specific knowledge.</p>
 
 
 
