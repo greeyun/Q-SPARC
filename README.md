@@ -79,7 +79,7 @@ These limitations create friction that discourages researchers from fully explor
 
 We have developed a effective and extensible chatbot system(Q-SPARC) that integrates local LLM reasoning, structured data retrieval, and Flatmap anatomical visualization. By supporting multi-turn dialogue and a staged retrieval strategy, it improves query efficiency and relevance, provides natural language summaries and structured tabular outputs, and enables dynamic Flatmap rendering. 
 
-![Q-SPARC](./images/chatbot_pipline.jpg)
+![Q-SPARC](./images/chatbot_pipeline.jpg)
 
 This significantly enhances the accessibility and interpretability of SCKAN data within the SPARC ecosystem, aligning with SPARC’s **FAIR**ness principles by:
 
