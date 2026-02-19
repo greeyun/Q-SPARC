@@ -9,7 +9,7 @@ An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 [![GitHub issues-closed][issues-closed-shield]][issues-url]
 [![License][license-shield]][license-url]
 [![Contributor Covenant][code-of-conduct-shield]](CODE_OF_CONDUCT.md)
-[![PyPI version fury.io][pypi-shield]][pypi-url]
+<!-- [![PyPI version fury.io][pypi-shield]][pypi-url]-->
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
 
 [contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
