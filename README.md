@@ -9,6 +9,7 @@ An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 [![License](https://img.shields.io/github/license/greeyun/Q-SPARC.svg?style=flat-square)](https://github.com/greeyun/Q-SPARC/blob/main/LICENSE)
 [![Contributor Covenant][code-of-conduct-shield]](CODE_OF_CONDUCT.md)
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18690270.svg)](https://doi.org/10.5281/zenodo.18690270)
 <!-- [![PyPI version fury.io][pypi-shield]][pypi-url]-->
 <!-- [![GitHub issues-closed][issues-closed-shield]][issues-url]-->
 [contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
