@@ -3,11 +3,14 @@
 An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 
 ![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
-[![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GitHub issues-closed][issues-closed-shield]][issues-url]
-[![License][license-shield]][license-url]
+[![Contributors](https://img.shields.io/github/contributors/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/graphs/contributors)
+
+[![Stars](https://img.shields.io/github/stars/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/stargazers)
+
+[![Issues](https://img.shields.io/github/issues/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/issues)
+
+<!-- [![GitHub issues-closed][issues-closed-shield]][issues-url]-->
+[![License](https://img.shields.io/github/license/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/blob/main/LICENSE)
 [![Contributor Covenant][code-of-conduct-shield]](CODE_OF_CONDUCT.md)
 <!-- [![PyPI version fury.io][pypi-shield]][pypi-url]-->
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
