@@ -2,16 +2,15 @@
 
 An interactive Python chatbot for intuitive exploration of SCKAN and Flatmap.
 
-[![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
-[![Contributors](https://img.shields.io/github/contributors/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/graphs/contributors)
-[![Stars](https://img.shields.io/github/stars/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/stargazers)
-[![Issues](https://img.shields.io/github/issues/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/issues)
-<!-- [![GitHub issues-closed][issues-closed-shield]][issues-url]-->
-[![License](https://img.shields.io/github/license/SPARC-FAIR-Codeathon/Q-SPARC.svg?style=flat-square)](https://github.com/SPARC-FAIR-Codeathon/Q-SPARC/blob/main/LICENSE)
+![Python 3](https://img.shields.io/badge/Python->=3.9-blue)
+[![Contributors](https://img.shields.io/github/contributors/greeyun/Q-SPARC.svg?style=flat-square)](https://github.com/greeyun/Q-SPARC/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/greeyun/Q-SPARC.svg?style=flat-square)](https://github.com/greeyun/Q-SPARC/stargazers)
+[![Issues](https://img.shields.io/github/issues/greeyun/Q-SPARC.svg?style=flat-square)](https://github.com/greeyun/Q-SPARC/issues)
+[![License](https://img.shields.io/github/license/greeyun/Q-SPARC.svg?style=flat-square)](https://github.com/greeyun/Q-SPARC/blob/main/LICENSE)
 [![Contributor Covenant][code-of-conduct-shield]](CODE_OF_CONDUCT.md)
-<!-- [![PyPI version fury.io][pypi-shield]][pypi-url]-->
 [![Conventional Commits][conventional-commits-shield]][conventional-commits-url]
-
+<!-- [![PyPI version fury.io][pypi-shield]][pypi-url]-->
+<!-- [![GitHub issues-closed][issues-closed-shield]][issues-url]-->
 [contributors-shield]: https://img.shields.io/github/contributors/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
 [contributors-url]: https://github.com/SPARC-FAIR-codeathon/Q-SPARC/graphs/contributors
 [stars-shield]: https://img.shields.io/github/stars/SPARC-FAIR-codeathon/Q-SPARC.svg?style=flat-square
